@@ -1,0 +1,217 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    overflow-x: hidden;
+   
+  
+}
+
+main{
+   width: 100vw;
+   
+}
+
+.mainWrap{
+    background: hsl(148, 38%, 91%);
+    font-family: "Karla", sans-serif;
+    min-height: 100vh;
+   
+
+   
+}
+
+form{
+    background: hsl(0, 0%, 100%);
+    width: 90% !important;
+}
+
+legend h2{
+    font-weight:500 ;
+    
+}
+
+
+
+.compIcon{
+    color:hsl(169, 82%, 27%) ;
+}
+
+#input1,#input2,#input3{
+    height: 45px;
+    cursor: pointer;
+    outline:hsl(169, 82%, 27%) ;
+    
+}
+
+#input1:hover,#input2:hover,#input3:hover{
+   border: solid hsl(169, 82%, 27%) 1px;
+   
+}
+
+.errortext{
+    position: relative;
+    top: 5px;
+    color: hsl(0, 66%, 54%);
+    
+}
+
+#butts1,#butts2{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    background:hsl(0, 0%, 100%) ;
+    border: solid black 1px;
+    cursor: pointer;
+  
+}
+
+
+
+#radinp,#radinp2{
+    width: 17px;
+    height: 17px;
+    position: relative;
+    top: 3px;
+}
+
+#radicon,#radicon2{
+    display: none;
+}
+
+
+
+
+#butts1 input:checked,#butts2 input:checked{
+    content: url('../assets/images/icon-radio-selected.svg');
+}
+
+
+
+#textarea{
+    height: 200px;
+    cursor: pointer;
+    outline: none;
+}
+
+.checksWrap{
+
+    position: relative;
+   top: 15px;
+}
+
+.checksWrap img,#check{
+    cursor: pointer;
+}
+
+#check{
+    height: 17px;
+    width: 17px;
+   
+}
+
+#check:checked{
+  content: url('../assets/images/icon-checkbox-check.svg');
+   
+}
+
+.consent{
+    cursor: pointer;
+}
+
+#subs{
+    cursor: pointer;
+    background: hsl(169, 82%, 27%);
+    color:hsl(0, 0%, 100%) ;
+   
+}
+
+#successWrap{
+   width: 100%;
+   top: -30px;
+  
+   right: 0;
+   left: 0;
+   
+  
+}
+
+.successMessage{
+    width: 80%;
+    background:hsl(187, 24%, 22%);
+    color:hsl(0, 0%, 100%) ;
+    font-size: 12px;
+    
+}
+
+.errorborder{
+    border: solid hsl(0, 66%, 54%) 1px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+@media(min-width:800px){
+    .mainWrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    form{
+        width: 1000px !important;
+    }
+
+    .namePart{
+        display: flex;
+        justify-content: space-between ;
+      
+    }
+
+   .first{
+    width: 49%;
+   }
+
+    .namePart > .second{
+        margin-top: unset !important;
+        width: 49%;
+     
+    }
+
+   
+#QueryWrap{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.gen{
+    width: 49% ;
+}
+
+.sup{
+    width: 49% ;
+    margin-top: unset !important;
+}
+
+.checksWrap{
+
+    position: relative;
+   top: 0px;
+}
+
+#successWrap{
+    
+    top:-100px;
+}
+
+.successMessage{
+    width: 350px;
+    padding-bottom: 5px !important;
+}
+
+
+
+}
+
